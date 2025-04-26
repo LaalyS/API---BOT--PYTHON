@@ -63,3 +63,13 @@ def clone_message(message):
 if __name__ == '__main__':
     print("Bot de clonagem iniciado. Aguardando mensagens no canal...")
     bot.polling(none_stop=True)
+
+            >>> running = True
+        >>> def f():
+        ...     if running:
+        ...             fd(50)
+        ...             lt(60)
+        ...             screen.ontimer(f, 250)
+        ...
+        >>> f()   # makes the turtle marching around
+        >>> running = False
